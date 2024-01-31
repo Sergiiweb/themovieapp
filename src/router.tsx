@@ -5,31 +5,31 @@ import {GenrePage, GenresPage, MovieDetailsPage, MoviesPage, NotFoundPage, Searc
 
 const router = createHashRouter([
     {
-        path: '',
+        path: '/',
         element: <MainLayout/>,
         children: [
             {
                 index: true,
-                element: <Navigate to={'movies'}/>
+                element: <Navigate to={'/movies'}/>
             },
             {
-                path: 'movies',
+                path: '/movies',
                 element: <MoviesPage/>,
             },
             {
-                path: 'movies/:id',
+                path: '/movies/:id',
                 element: <MovieDetailsPage/>
             },
             {
-                path: 'genres',
+                path: '/genres',
                 element: <GenresPage/>,
             },
             {
-                path: 'genres/:id',
+                path: '/genres/:id',
                 element: <GenrePage/>
             },
             {
-                path: 'search',
+                path: '/search',
                 element: <SearchPage/>
             }
         ]
