@@ -5,7 +5,7 @@ import {GenrePage, GenresPage, MovieDetailsPage, MoviesPage, NotFoundPage, Searc
 
 const router = createBrowserRouter([
     {
-        path: 'themovieapp/',
+        path: '',
         element: <MainLayout/>,
         children: [
             {
