@@ -8,10 +8,10 @@ const router = createHashRouter([
         path: '/',
         element: <MainLayout/>,
         children: [
-            // {
-            //     index: true,
-            //     element: <Navigate to={'/movies'}/>
-            // },
+            {
+                index: true,
+                element: <Navigate to={'/movies'}/>
+            },
             {
                 path: '/movies',
                 element: <MoviesPage/>,
