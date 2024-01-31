@@ -1,9 +1,9 @@
-import {createBrowserRouter, Navigate} from "react-router-dom";
+import {createHashRouter, Navigate} from "react-router-dom";
 
 import {MainLayout} from "./layouts";
 import {GenrePage, GenresPage, MovieDetailsPage, MoviesPage, NotFoundPage, SearchPage} from "./pages";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: '',
         element: <MainLayout/>,
