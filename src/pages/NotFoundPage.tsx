@@ -10,7 +10,7 @@ const NotFoundPage = () => {
             height: "100vh"
         }}>
             <div>NotFoundPage</div>
-            <NavLink to={''}>To main</NavLink>
+            <NavLink to={'themovieapp/'}>To main</NavLink>
         </div>
     );
 };

@@ -10,26 +10,26 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <Navigate to={'movies'}/>
+                element: <Navigate to={'themovieapp/movies'}/>
             },
             {
-                path: 'movies',
+                path: 'themovieapp/movies',
                 element: <MoviesPage/>,
             },
             {
-                path: 'movies/:id',
+                path: 'themovieapp/movies/:id',
                 element: <MovieDetailsPage/>
             },
             {
-                path: 'genres',
+                path: 'themovieapp/genres',
                 element: <GenresPage/>,
             },
             {
-                path: 'genres/:id',
+                path: 'themovieapp/genres/:id',
                 element: <GenrePage/>
             },
             {
-                path: 'search',
+                path: 'themovieapp/search',
                 element: <SearchPage/>
             }
         ]
