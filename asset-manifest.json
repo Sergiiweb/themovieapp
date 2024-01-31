@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/themovieapp/static/css/main.98ae31e2.css",
-    "main.js": "/themovieapp/static/js/main.6a594dc4.js",
+    "main.js": "/themovieapp/static/js/main.e8342448.js",
     "static/media/noImg.png": "/themovieapp/static/media/noImg.30048661de110838494a.png",
     "static/media/avatar.jpg": "/themovieapp/static/media/avatar.41a086ca6b24ab23a714.jpg",
     "index.html": "/themovieapp/index.html",
     "main.98ae31e2.css.map": "/themovieapp/static/css/main.98ae31e2.css.map",
-    "main.6a594dc4.js.map": "/themovieapp/static/js/main.6a594dc4.js.map"
+    "main.e8342448.js.map": "/themovieapp/static/js/main.e8342448.js.map"
   },
   "entrypoints": [
     "static/css/main.98ae31e2.css",
-    "static/js/main.6a594dc4.js"
+    "static/js/main.e8342448.js"
   ]
 }
