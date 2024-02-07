@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <>
             <div className={css.Header}>
-                <NavLink to={''}>
+                <NavLink to={'/movies'}>
                     {currentTheme === "light" ?
                         <div className={css.logo}></div>
                         :
